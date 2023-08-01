@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "module2/js"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "header"
+	}
+}

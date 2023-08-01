@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes animate--div {
+            0%{
+                background-color: aqua;
+                transform: translateX(100px);
+            }
+            50%{
+                background-color: rgb(142, 21, 88);
+                transform: translatey(500px); 
+            }
+            100%{
+                background-color: aquamarine;
+                transform:translateX(1000px);
+            }
+            
+        }
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: bisque;
+            border-radius: 50%;
+            animation-name: animate--div;
+            animation-duration: 5s;
+            animation-delay: 0.3s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+    </style>
+</head>
+<body>
+<div></div>
+</body>
+</html>

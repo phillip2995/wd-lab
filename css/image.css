@@ -1,0 +1,19 @@
+.ad{
+    width : 290px;
+    height : 160 px;
+}
+#p1{
+    margin-left: 80px;
+}
+#p2{
+    padding-left: 80px;
+}
+#p2{
+    padding-top: 10px;
+    margin-left: 80px;
+}
+.d{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkblue;
+    text-shadow: 0ch;
+}

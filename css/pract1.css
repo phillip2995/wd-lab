@@ -1,0 +1,41 @@
+body{
+   background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcOakPb7qVhXNPQkG3e5TX03XwUjzjEHVUGw&usqp=CAU);
+   background-repeat: no-repeat;
+   background-position: center ;
+}
+h1{
+   font-size: 100px;
+   font-family: 'Courier New', Courier, monospace;
+   font-style: italic;
+   background-color: aqua;
+   box-sizing: 100px;
+
+}
+h2{
+   font-size: 80px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-style: normal;
+   background-color: aquamarine;
+}
+h3{
+   font-size: 60px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   background-color: blue;
+}
+h4{
+   font-size: 80px;
+   font-style: oblique;
+   background-color: bisque;
+}
+div {
+   background-color: lightgrey;
+   width: 300px;
+   border: 15px solid green;
+   padding: 50px;
+   margin: 20px;
+ }
+ #box2{
+   background-color: rgba(41, 48, 54, 0.422);
+   width: 650px;
+   height: 350px;
+margin-left: 880px;

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        *{
+            align-content: center;
+        }
+        #container{
+            background-color: aqua;
+            width: 300px;
+            height: 150px;
+        }
+        .inputno{
+            width: 200px;
+            margin: 10px;
+        }
+    </style>
+    <head>
+        <meta charset="utef-8">
+        <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+        <title>calculator</title>
+    </head>
+<body>
+    <div id ="container">
+        <input type="text" class="input no" id="no1" placeholder="number 1">
+        <br>
+        <input type="text" class ="input no" id="no2" placeholder="number 2">
+        <br>
+        <button onclick ="addnos">add</button>
+        <button onclick ="subnos">subtract</button>
+        <button onclick ="multnos">multiply</button>
+        <button onclick ="divinos">divide</button>
+        <div id ="result">
+        </div>
+        </div>
+    <script>
+        function addnos()
+        {
+            var no1;
+            var no2;
+            no1 = document.getelementbyid(no1).value
+            var n2=document.getelementbyid(no2).value
+            result=parseInt(n1)+parseInt(n2);
+            document.getElementById(result).textcontent="result"
+
+        }
+        
+        function subnos()
+        {
+            var no1;
+            var no2;
+            no1 = document.getelementbyid(no1).value
+            var n2=document.getelementbyid(no2).value
+            result=parseInt(n1)-parseInt(n2);
+            document.getElementById(result).textcontent="result"
+
+        }
+        function divnos()
+        {
+            var no1;
+            var no2;
+            no1 = document.getelementbyid(no1).value
+            var n2=document.getelementbyid(no2).value
+            result=parseInt(n1)/parseInt(n2);
+            document.getElementById(result).textcontent="result"
+
+        }
+        function multiply()
+        {
+            var no1;
+            var no2;
+            no1 = document.getelementbyid(no1).value
+            var n2=document.getelementbyid(no2).value
+            result=parseInt(n1)*parseInt(n2);
+            document.getElementById(result).textcontent="result"
+
+        }
+</script>
+</body>
+    </head>
+</html>
